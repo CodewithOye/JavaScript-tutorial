@@ -13,7 +13,6 @@ let car = {
 
     }
 
-
 }
 
 car.printDescription();
