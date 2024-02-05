@@ -1,8 +1,8 @@
 function sayHello(name) {
-    return function() {
-        console.log("howdy " + name)
+    return  () => {
+        console.log(`How are you ${name}`); 
     }
 }
-let jonny = sayHello("John"); // howdy John,
+let jonny = sayHello("John"); 
 
-jonny();                     // howdy John!
+jonny();                     //How are you John
