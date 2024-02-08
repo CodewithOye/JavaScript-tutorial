@@ -1,6 +1,6 @@
 //let pattern = /xyz/;
 // var result1 = "abc xyz def".match(pattern); // ["xyz", index: 4, input: "abc xyz def"]
-// //console.log("result1="+JSON.stringify(result1));
+//console.log("result1="+JSON.stringify(result1));
 // if (result1) {
 //     var strIndex = result1.index;
 //     console.assert(strIndex == 4, 'Test 1 Failed');
@@ -9,7 +9,7 @@
 // }
 
 // var result2 = "abc xyzdef".match(pattern); // null
-// //console.log("result2="+JSON.stringify(result2)+" length="+result2.length);
+//console.log("result2="+JSON.stringify(result2)+" length="+result2.length);
 // if (!result2) {
 //     console.log('Test 2 Passed')
 // } else {
